@@ -1,0 +1,65 @@
+body{
+	/*background: powderblue;*/
+	/*             R G B */
+	/*background: #ff0000;*/
+	/*             RGB */
+	/*background: #f00;*/
+	
+	background: #ffc;
+	
+	max-width: 800px;
+	width: 80%;
+	margin: auto;
+	
+	/*        fent bal */
+	/*margin: 0 100px;*/
+	/*        fent  bal   lent  jobb*/
+	/*margin: 100px 100px 100px 100px;*/
+}
+
+h1{
+	background: powderblue;
+	color: #ffc;
+}
+
+h2{
+	color: powderblue;
+	clear: both;/* float megszuntetese */
+}
+
+p{
+	text-align: justify;/* left | right | center */
+}
+
+#lablec{
+	/* -top | -bottom | -left | -right */
+	border-top: 5px double red;/* dashed | dotted | double | solid */
+	text-align: center; 
+	font-weight: bold;
+	clear: both;/* float megszuntetese */
+}
+
+/* alap */
+a:link{
+	color: red;
+}
+/* megtekintett */
+a:visited {
+  color: pink;
+}
+/* egér fölötte */
+a:hover{
+	color: green;
+	text-decoration: none;
+	font-size: 20px;
+}
+/* kattintás pillnatában */
+a:active {
+  color: black;
+}
+
+img{
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
